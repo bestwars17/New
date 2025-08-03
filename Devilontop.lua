@@ -49,7 +49,7 @@ buttonContainer.BorderSizePixel = 0
 buttonContainer.Parent = mainFrame
 
 local buttonNames = {
-    "Enable dead paste"",
+    "Enable dead paste",
     "Auto Kill everyone",
     "Auto Kill players",
     "spectate"
