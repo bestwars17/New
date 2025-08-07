@@ -1,4 +1,18 @@
+
+local HttpService = game:GetService("HttpService")
 local Players = game:GetService("Players")
+local LocalPlayer = Players.LocalPlayer
+
+local allowedUsers = {
+    ["bestwars17"] = true,
+    ["Hinsibhsibhs"] = true
+}
+
+if not allowedUsers[LocalPlayer.Name] then
+    LocalPlayer:Kick("❌ You are not whitelisted.")
+    return
+end
+
 local TweenService = game:GetService("TweenService")
 local RunService = game:GetService("RunService")
 local HttpService = game:GetService("HttpService")
