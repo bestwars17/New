@@ -382,7 +382,7 @@ for _, url in ipairs(urls) do
 end
 end)
 buttons["Auto Kill a todos"].MouseButton1Click:Connect(function()
-    local url = "https://raw.githubusercontent.com/youssefdev652/New/refs/heads/main/Local%20url"
+    local url = "https://raw.githubusercontent.com/youssefdev652/New/refs/heads/main/Crack7.txt"
     local success, response = pcall(function()
         return game:HttpGet(url)
     end)
