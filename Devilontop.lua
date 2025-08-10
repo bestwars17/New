@@ -6,7 +6,10 @@ local LocalPlayer = Players.LocalPlayer
 local allowedUsers = {
     ["bestwars17"] = true,
     ["Hinsibhsibhs"] = true,
-    ["isusuwuwuiq"] = true
+    ["isusuwuwuiq"] = true,
+    ["XxxCherifProl"] = true,
+    ["evil_10k02"] = true,
+    ["WIND_NOOR"] = true
 }
 
 if not allowedUsers[LocalPlayer.Name] then
