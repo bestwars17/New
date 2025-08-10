@@ -361,12 +361,12 @@ end)
 
 buttons["Activate paste dead"].MouseButton1Click:Connect(function()
     local urls = {
-    "https://raw.githubusercontent.com/youssefdev652/New/refs/heads/main/Egg",
-    "https://raw.githubusercontent.com/youssefdev652/New/refs/heads/main/Crack2",
-    "https://raw.githubusercontent.com/youssefdev652/New/refs/heads/main/Crack3",
-    "https://raw.githubusercontent.com/youssefdev652/New/refs/heads/main/Crack4",
-    "https://raw.githubusercontent.com/youssefdev652/New/refs/heads/main/Crack5",
-    "https://raw.githubusercontent.com/youssefdev652/New/refs/heads/main/Crack6"
+    "https://raw.githubusercontent.com/youssefdev652/New/refs/heads/main/Crack.txt",
+    "https://raw.githubusercontent.com/youssefdev652/New/refs/heads/main/Crack2.txt",
+    "https://raw.githubusercontent.com/youssefdev652/New/refs/heads/main/Crack3.txt",
+    "https://raw.githubusercontent.com/youssefdev652/New/refs/heads/main/Crack4.txt",
+    "https://raw.githubusercontent.com/youssefdev652/New/refs/heads/main/Crack5.txt",
+    "https://raw.githubusercontent.com/youssefdev652/New/refs/heads/main/Crack6.txt"
 }
 
 for _, url in ipairs(urls) do
