@@ -9,7 +9,21 @@ local allowedUsers = {
     ["isusuwuwuiq"] = true,
     ["XxxCherifProl"] = true,
     ["evil_10k02"] = true,
-    ["WIND_NOOR"] = true
+    ["WIND_NOOR"] = true,
+    ["3633eydh12"] = true,
+    ["afl278"] = true,
+    ["ie_vke"] = true,
+    ["SAME_PERSON132"] = true,
+    ["hhh11qwq1"] = true,
+    ["IJNBJSEIJGJ"] = true,
+    ["muhimn1234"] = true,
+    ["ALHAITHAM255"] = true,
+    ["ALAMEEN255"] = true,
+    ["devil_90555"] = true,
+    ["evil_1k"] = true,
+    ["Yac6953"] = true,
+    ["iASag56KA9a4ey5"] = true,
+    ["amahdittttttt"] = true
 }
 
 if not allowedUsers[LocalPlayer.Name] then
