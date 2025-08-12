@@ -363,7 +363,7 @@ titleButton.MouseButton1Click:Connect(function()
 	end
 end)
 
-buttons["حدد الاعب 🎯"].MouseButton1Click:Connect(function()
+buttons["حدد الاعب🎯"].MouseButton1Click:Connect(function()
 	autoKillPanel.Visible = not autoKillPanel.Visible
 	if autoKillPanel.Visible then
 		spectatePanel.Visible = false
