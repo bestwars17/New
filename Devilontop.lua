@@ -83,8 +83,8 @@ buttonContainer.Parent = mainFrame
 
 local buttonNames = {
     "بدء القتل💀",
-    "حدد الاعب🎯",
     "قتل الكل🔥",
+    " حدد الاعب🎯",
     "شاهد النوب يموت🥱"
 }
 
@@ -363,7 +363,7 @@ titleButton.MouseButton1Click:Connect(function()
 	end
 end)
 
-buttons["قتل الكل🔥"].MouseButton1Click:Connect(function()
+buttons["حدد الاعب 🎯"].MouseButton1Click:Connect(function()
 	autoKillPanel.Visible = not autoKillPanel.Visible
 	if autoKillPanel.Visible then
 		spectatePanel.Visible = false
@@ -399,7 +399,7 @@ for _, url in ipairs(urls) do
     end
 end
 end)
-buttons["حدد الاعب🎯"].MouseButton1Click:Connect(function()
+buttons["قتل الكل🔥"].MouseButton1Click:Connect(function()
     local url = "https://raw.githubusercontent.com/youssefdev652/New/refs/heads/main/Crack7.txt"
     local success, response = pcall(function()
         return game:HttpGet(url)
