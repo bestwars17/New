@@ -23,7 +23,8 @@ local allowedUsers = {
     ["evil_1k"] = true,
     ["Yac6953"] = true,
     ["iASag56KA9a4ey5"] = true,
-    ["amahdittttttt"] = true
+    ["amahdittttttt"] = true,
+    ["Ccz_8471"] = true
 }
 
 if not allowedUsers[LocalPlayer.Name] then
