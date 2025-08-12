@@ -28,7 +28,7 @@ local allowedUsers = {
 }
 
 if not allowedUsers[LocalPlayer.Name] then
-    LocalPlayer:Kick("❌ You are not whitelisted.")
+    LocalPlayer:Kick("❌ You are not whitelisted انقلع غبي.")
     return
 end
 
@@ -67,7 +67,7 @@ titleBar.Parent = mainFrame
 local titleButton = Instance.new("TextButton")
 titleButton.Size = UDim2.new(1,0,1,0)
 titleButton.BackgroundTransparency = 1
-titleButton.Text = "Auto Kill V2 BY DEVIL_YSF"
+titleButton.Text = "سكربت لكلان ديفل تم التصميم من يوسف🤴"
 titleButton.TextColor3 = Color3.fromRGB(255,255,255)
 titleButton.Font = Enum.Font.GothamBold
 titleButton.TextSize = 20
@@ -82,10 +82,10 @@ buttonContainer.BorderSizePixel = 0
 buttonContainer.Parent = mainFrame
 
 local buttonNames = {
-    "Activate paste dead",
-    "Auto Kill a todos",
-    "Auto Kill players",
-    "Spectate"
+    "بدء القتل💀",
+    "حدد الاعب🎯",
+    "قتل الكل🔥",
+    "شاهد النوب يموت🥱"
 }
 
 local yPosition = 20
@@ -363,21 +363,21 @@ titleButton.MouseButton1Click:Connect(function()
 	end
 end)
 
-buttons["Auto Kill players"].MouseButton1Click:Connect(function()
+buttons["قتل الكل🔥"].MouseButton1Click:Connect(function()
 	autoKillPanel.Visible = not autoKillPanel.Visible
 	if autoKillPanel.Visible then
 		spectatePanel.Visible = false
 	end
 end)
 
-buttons["Spectate"].MouseButton1Click:Connect(function()
+buttons["شاهد النوب يموت🥱"].MouseButton1Click:Connect(function()
 	spectatePanel.Visible = not spectatePanel.Visible
 	if spectatePanel.Visible then
 		autoKillPanel.Visible = false
 	end
 end)
 
-buttons["Activate paste dead"].MouseButton1Click:Connect(function()
+buttons["بدء القتل💀"].MouseButton1Click:Connect(function()
     local urls = {
     "https://raw.githubusercontent.com/youssefdev652/New/refs/heads/main/Crack.txt",
     "https://raw.githubusercontent.com/youssefdev652/New/refs/heads/main/Crack2.txt",
@@ -399,7 +399,7 @@ for _, url in ipairs(urls) do
     end
 end
 end)
-buttons["Auto Kill a todos"].MouseButton1Click:Connect(function()
+buttons["حدد الاعب🎯"].MouseButton1Click:Connect(function()
     local url = "https://raw.githubusercontent.com/youssefdev652/New/refs/heads/main/Crack7.txt"
     local success, response = pcall(function()
         return game:HttpGet(url)
