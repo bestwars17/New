@@ -25,7 +25,7 @@ local allowedUsers = {
     ["iASag56KA9a4ey5"] = true,
     ["amahdittttttt"] = true,
     ["Ccz_8471"] = true,
-    ["DEVIL_ZNigHtMxRe"] = true,
+    ["DEViL_ZNigHtMxRe"] = true,
     ["Hewa900k"] = true
 }
 
