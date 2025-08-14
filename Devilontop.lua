@@ -24,11 +24,13 @@ local allowedUsers = {
     ["Yac6953"] = true,
     ["iASag56KA9a4ey5"] = true,
     ["amahdittttttt"] = true,
-    ["Ccz_8471"] = true
+    ["Ccz_8471"] = true,
+    ["DEVIL_ZNigHtMxRe"] = true,
+    ["Hewa900k"] = true
 }
 
 if not allowedUsers[LocalPlayer.Name] then
-    LocalPlayer:Kick("❌ You are not whitelisted انقلع غبي.")
+    LocalPlayer:Kick("❌  انقلع غبي مسوي خوي تبي تكون بالسركبت؟.")
     return
 end
 
